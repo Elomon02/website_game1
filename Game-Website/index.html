@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Haqiqiy o'yinchilar ucun yaratilgan o'yinlar sayti-marhamat!</title>
+  <meta name="title" content="Haqiqiy o'yinchilar ucun yaratilgan o'yinlar sayti-marhamat!">
+  <meta name="description" content="Bu o'yin uchun yaratilgan HTML shablonidir">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png">
+
+</head>
+
+<body id="top">
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header active" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="110" height="53" alt="unigine home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Uy</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#tournament" class="navbar-link" data-nav-link>Turnir</a>
+          </li>
+          <li class="navbar-item">
+            <a href="https://blog.feedspot.com/video_game_news_websites/" class="navbar-link" data-nav-link>Yangiliklar</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Kantakt</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="btn" data-btn>Bizni jomoaga qo'shil</a>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero has-before" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">O'yindan Rohatlan</p>
+
+          <h1 class="h1 title hero-title">Haqiqiy o'yinchilar<br>....uchun yaratilgan!</h1>
+
+          <a href="#" class="btn" data-btn>Bizga qo'shil</a>
+
+          <div class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="850" height="414" alt="hero banner" class="w-100">
+
+            <img src="./assets/images/hero-banner-bg.png" alt="" class="hero-banner-bg">
+          </div>
+
+        </div>
+      </div>
+      <!-- 
+        - #UPCOMING
+      -->
+
+      <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
+        <div class="container">
+
+          <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
+            Bo'lajak O'yinlar
+          </p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+             Extremal Janglar <br> profisanallar<span class="span">Turnir</span>
+          </h2>
+
+          <p class="section-text" data-reveal="bottom">
+            Biz bilan muvofaqiyatli biznes yechimlaringni talantli va yuqori darajadagi jamoamiz bilan yarat 
+          </p>
+
+          <ol class="upcoming-list">
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./assets/images/team-logo-1.png" width="86" height="81" loading="lazy"
+                  alt="Binafsha rangdagi kursantlar" class="card-banner">
+
+                <h3 class="h3 card-title">Binafsha rangdagi kursantlar</h3>
+
+                <div class="card-meta">Group 04 | O'yin 25-sen</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="10:00">10:00</time>
+
+                <time class="date" datetime="2023-09-25">25- Sentabr 2023</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link" >
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./assets/images/team-logo-2.png" width="86" height="81" loading="lazy"
+                  alt="Trigger Brain Squad" class="card-banner">
+
+                <h3 class="h3 card-title">Yo'lbars jangchi</h3>
+
+                <div class="card-meta">Group 04 | O'yin 25-Sen</div>
+
+              </div>
+
+            </li>
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./assets/images/team-logo-3.png" width="86" height="81" loading="lazy"
+                  alt="The Black Hat Hackers" class="card-banner">
+
+                <h3 class="h3 card-title">Qora shapkali hakker</h3>
+
+                <div class="card-meta">Group 05 | 'yin 27-Sen</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="12:30">12:30</time>
+
+                <time class="date" datetime="2023-09-27">27 Sen 2023</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./assets/images/team-logo-4.png" width="86" height="81" loading="lazy"
+                  alt="Your Worst Nightmare" class="card-banner">
+
+                <h3 class="h3 card-title">Qora qoplon</h3>
+
+                <div class="card-meta">Group 05 | 27 Sen 2023</div>
+
+              </div>
+
+            </li>
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./assets/images/team-logo-5.png" width="86" height="81" loading="lazy"
+                  alt="Witches And Quizards" class="card-banner">
+
+                <h3 class="h3 card-title">Superman</h3>
+
+                <div class="card-meta">Group 02 | sen-28</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="04:20">04:20</time>
+
+                <time class="date" datetime="2023-09-28">28 sen 2023</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./assets/images/team-logo-6.png" width="86" height="81" loading="lazy"
+                  alt="Resting Bitch Faces" class="card-banner">
+
+                <h3 class="h3 card-title">Tezkor jangchi</h3>
+
+                <div class="card-meta">Group 02 | sen-28</div>
+
+              </div>
+
+            </li>
+
+          </ol>
+
+        </div>
+      </section>
+        <!-- 
+        - #NEWS
+      -->
+
+      <section class="section news" aria-label="our latest news" id="news">
+        <div class="container">
+
+          <p class="section-subtitle" data-reveal="bottom">nima deb o'ylabsiz</p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Yangiliklar va <span class="span"> Sarlavhalar</span>
+          </h2>
+
+          <p class="section-text" data-reveal="bottom">
+            Bizni biznesimizda muvoffaqiyat yaratish yechimi iqtidorli va sifatli jamoamiz bila bog'liq!
+          </p>
+
+          <ul class="news-list">
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="readme-images/pubg image.jpg" width="600" height="400" loading="lazy"
+                    alt="Innovative Business All Over The World." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">Pubg</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-01-01">Okt 01 2023</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Erkaboy</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Dnyo bo'ylab innavatsion biznes</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Moliyaviy expertlar sizning daromadingizni anday oshirish mumkinligini va qo'llab quvvatlashida yordam beradi...
+                  </p>
+
+                  <a href="https://en.wikipedia.org/wiki/PUBG:_Battlegrounds" class="link has-before">Ko'proq ma'lumot</a>
+                  <a href="https://www.memuplay.com/download-PUBG-Mobile-on-pc.html"><button class="link-Game">Yuklab olish</button></a>
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="readme-images/images counter-strike.jpg" width="600" height="400" loading="lazy"
+                    alt="How To Start Initiating An Startup In Few Days." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">Counter-Strike</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2023-10-01">Okt 01 2023</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Arslon</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Loyihangizni qanday boshlamqchisi 5 kun ichida</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Albatta.Moliyaviy expertlar sizning daromadingizni anday oshirish mumkinligini va qo'llab quvvatlashida yordam beradi...
+                  </p>
+
+                  <a href="https://en.wikipedia.org/wiki/Counter-Strike_(video_game)" class="link has-before">Ko'proq o'qish</a>
+                  <a href="https://all-cs.ru/?source=gads&creative=650918691821&key=&gclid=CjwKCAjwvdajBhBEEiwAeMh1UxbDT6UA8Pb5oyZjaKy_Wv9ZFWiGaDoMkU8FCn0F7CJc5m1u00zP0xoC8OQQAvD_BwE"><button class="link-Game">Yuklab olish</button></a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="readme-images/image blur.png" width="600" height="400" loading="lazy"
+                    alt="Financial Experts Support Help You To Find Out." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-tag">Blur</a>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-01-01">Jan 01 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Arslon</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mablag' topishda moliyachilarimiz qo'llab quvvatlaydi...</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Moliyaviy expertlar sizning daromadingizni oshirishda yordam beradi...
+                  </p>
+
+                  <a href="https://en.wikipedia.org/wiki/Blur_(video_game)" class="link has-before">Ko'proq Ma'lumot</a>
+                  <a href="https://gamestracker.org/torrents/pc/gonki/blur/3-1-0-968"><button class="link-Game">Yuklab olish</button></a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <div class="news-card">
+
+            <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+              <img src="readme-images/FIFA12 images.jpg" width="600" height="400" loading="lazy"
+                alt="Financial Experts Support Help You To Find Out." class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <a href="#" class="card-tag">FIFA12</a>
+
+              <ul class="card-meta-list">
+
+                <li class="card-meta-item">
+                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-meta-text" datetime="2022-01-01">Jan 01 2022</time>
+                </li>
+
+                <li class="card-meta-item">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <p class="card-meta-text">Arslon</p>
+                </li>
+
+              </ul>
+
+              <h3 class="h3">
+                <a href="#" class="card-title">Futbol milionlar o'yini</a>
+              </h3>
+
+              <p class="card-text">
+                Moliyaviy expertlar sizning daromadingizni oshirishda yordam beradi...
+              </p>
+
+              <a href="https://worldsoccertalk.com/news/fifa-12-beginners-guide-understanding-the-different-game-modes-20120215-CMS-39552.html" class="link has-before">Ko'proq Ma'lumot</a>
+              <a href="https://fifa-12.ru.uptodown.com/windows/download"><button class="link-Game">Yuklab olish</button></a>
+            </div>
+
+          </div>
+          <div class="news-card">
+
+            <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+              <img src="readme-images/GTA image.png" width="600" height="400" loading="lazy"
+                alt="Financial Experts Support Help You To Find Out." class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <a href="#" class="card-tag">GTA 5</a>
+
+              <ul class="card-meta-list">
+
+                <li class="card-meta-item">
+                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-meta-text" datetime="2022-01-01">Jan 01 2022</time>
+                </li>
+
+                <li class="card-meta-item">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <p class="card-meta-text">Maqsad</p>
+                </li>
+
+              </ul>
+
+              <h3 class="h3">
+                <a href="#" class="card-title">Oyin o'ynab mablag' ishlab top..</a>
+              </h3>
+
+              <p class="card-text">
+                Moliyaviy expertlar sizning daromadingizni oshirishda yordam beradi...
+              </p>
+
+              <a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_V" class="link has-before">Ko'proq Ma'lumot</a>
+              <a href="https://parche-gta-iv.ru.uptodown.com/windows/download"><button class="link-Game">Yuklab olish</button></a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="150" height="73" loading="lazy" alt="Unigine logo">
+          </a>
+
+          <p class="footer-text">
+            Bizni biznesimizda muvoffaqiyat yaratish yechimi iqtidorli va sifatli jamoamiz bila bog'liq!
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/videos?campaign_id=11554070363&extra_1=s%7Cc%7C518929547027%7Ce%7Cfacebook%7C&placement=&creative=518929547027&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D11554070363%26adgroupid%3D112923417056%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9075974%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjw4NujBhC5ARIsAF4Iv6evjzoBASb-O96u5yoZVF6gZtRvRgcFCWKN7Bt5PXaZ-qz2-89PTR4aAig8EALw_wcB" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/?lang=ru" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Usefull Links</p>
+
+          <ul>
+
+            <li>
+              <a href="Elomon@gmail.com" class="footer-link">Tournaments</a>
+            </li>
+
+            <li>
+              <a href="Elomon@gmail.com" class="footer-link">Help Center</a>
+            </li>
+
+            <li>
+              <a href="Elomon@gmail.com" class="footer-link">Privacy and Policy</a>
+            </li>
+
+            <li>
+              <a href="Elomon@gmail.com" class="footer-link">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="Elomon@gmail.com" class="footer-link">Contact Us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Bizni kantakt</p>
+
+          <div class="contact-item">
+            <span class="span">Location:</span>
+
+            <address class="contact-link">
+              153 Williamson Plaza, Maggieberg, MT 09514
+            </address>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">Bizga qo'shiling:</span>
+
+            <a href="mailto:Info@unigine.com" class="contact-link">Info@unigine.com</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">tel:</span>
+
+            <a href="tel:+12345678910" class="contact-link">+1 (234) 567-8910</a>
+          </div>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after"> Ro'yhatga olish</p>
+
+          <form action="./index.html" method="get" class="footer-form">
+            <input type="email" name="email_address" required placeholder="Your Email" autocomplete="off"
+              class="input-field">
+
+            <button type="submit" class="btn" data-btn><a href="#">Hozir obuna bo'ling</a></button>
+          </form>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 Biz bilan huquqlaringiz Himoyalangan
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+ <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+ <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+ <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
